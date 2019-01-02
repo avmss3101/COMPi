@@ -1,0 +1,13 @@
+S → Stm; S
+S → Stm
+Stm → id = E
+Stm → print ( E )
+E → E + T
+    | E – T
+    | T
+T → T * F
+    | T / F
+    | F
+F → ( E )
+    | _V
+    | _N
