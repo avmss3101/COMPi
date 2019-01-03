@@ -1,0 +1,15 @@
+P → D C
+D → L ; D | L ;
+L → T id | L , id
+T → int
+C → begin B end
+B → S ; B| S
+S → A | I | W | O
+A → id = E
+I → if E C
+  | if E C else C
+W → do C while E
+O → print (E)
+E → E + T | E – T | T
+T → T * F | T / F | F
+F → ( E )| id | n
