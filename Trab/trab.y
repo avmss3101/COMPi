@@ -19,7 +19,7 @@ typedef enum {
 } Entity;
 /*
 SymbTab: 1as 50 entradas p/ simbolos do fonte
-e �ltimas p/ as temporarias
+e ultimas p/ as temporarias
 */
 typedef struct {
   char     asciiOfSource [20];
